@@ -1,0 +1,23 @@
+output_path = "/tmp/"
+target_yield = 100000000000
+working_pore_percent = 100
+pore_type = "R10"
+nucleotide_type = "DNA"
+random_seed = 9
+
+[parameters]
+sample_name = "thesis_barcode_weights"
+experiment_name = "thesis_barcode_weights"
+flowcell_name = "FAQ1234"
+experiment_duration_set = 4800
+device_id = "Bantersaurus"
+position = "FenceSitter"
+sample_rate = 5000
+
+[[sample]]
+name = "Bacteria 1"
+input_genome = "docker/squiggle_arrs/mixed_ref.fa"
+mean_read_length = 2000
+weight = 1
+barcodes = ["Barcode01", "Barcode02", "Barcode03"]
+barcode_weights = [1, 2, 3]
