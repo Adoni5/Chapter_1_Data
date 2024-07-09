@@ -166,4 +166,5 @@ cython_debug/
 # Manually added by Rory
 */.temp_dorado_model*
 *.bam
+*.virtual_documents*
 
