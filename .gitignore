@@ -164,6 +164,6 @@ cython_debug/
 
 # My time is now
 # Manually added by Rory
-*/.temp_dorado_models/*
+*/.temp_dorado_model*
 *.bam
 
