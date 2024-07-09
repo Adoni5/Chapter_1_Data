@@ -1,0 +1,23 @@
+lines.linewidth : 0.8
+lines.markersize : 10
+
+xtick.labelsize : 16
+ytick.labelsize : 16
+
+axes.spines.top:    False
+axes.spines.right:  False
+axes.titleweight: normal
+axes.titlesize : 18
+axes.labelsize : 14
+
+savefig.transparent: True
+
+figure.dpi: 300
+figure.titlesize: 16
+figure.titleweight: normal 
+
+grid.color: b0b0b0
+grid.linestyle: -          # solid
+grid.linewidth: 0.8        # in points
+grid.alpha:     0.7        # transparency, between 0.0 and 1.0
+
